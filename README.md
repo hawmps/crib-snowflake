@@ -23,6 +23,14 @@ Place the script on a worker node accessible by the cribl user:
 # Example location
 /opt/cribl/scripts/snowsql.js
 ```
+Don't forget to change permissions as needed. 
+
+There is a dependency on the jsonwebtoken npm library. Deploy as you normally do or you can install like:
+
+```bash
+cd /opt/cribl/scripts/
+npm install jsonwebtoken
+```
 
 ### 2. Configure the Script
 
